@@ -54,6 +54,26 @@
   letter-spacing: -0.02em;
   margin-bottom: 1.25rem;
 }
+.landing-footer {
+  margin-top: 80px;
+  padding: 30px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  color: #9ca3af;
+}
+
+.landing-footer p {
+  margin: 6px 0;
+}
+
+.landing-author {
+  color: #d1d5db;
+  font-size: 15px;
+}
+
+.landing-author strong {
+  color: #ffffff;
+}
 
 .landing__gradient {
   background: var(--gradient-primary);

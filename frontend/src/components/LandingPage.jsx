@@ -59,9 +59,15 @@ export default function LandingPage() {
         </ol>
       </section>
 
-      <footer className="landing__footer">
-        <p>AI Document Analyzer · Built with React, FastAPI, Gemini, LangChain & ChromaDB</p>
-      </footer>
+      <footer className="landing-footer">
+      <p>
+        AI Document Analyzer • Built with React, FastAPI, Gemini, LangChain & ChromaDB
+      </p>
+
+      <p style={{ marginTop: "8px" }}>
+        Developed by <strong>Aashna Anand</strong>
+      </p>
+    </footer>
     </div>
   );
 }
