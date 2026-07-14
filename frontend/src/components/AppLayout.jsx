@@ -184,6 +184,7 @@ export default function AppLayout() {
         deletingDocId={deletingDocId}
         isOpen={sidebarOpen}
         onClose={() => setSidebarOpen(false)}
+        
       />
 
       <main className="app-main">
@@ -220,7 +221,19 @@ export default function AppLayout() {
             isLoading={isLoading}
           />
         </div>
-      </main>
+        <footer
+      style={{
+        textAlign: "center",
+        padding: "15px",
+        color: "#9ca3af",
+        fontSize: "14px",
+      }}
+    >
+      🚀 Built with React • FastAPI • Docker • AWS
+      <br />
+      Developed by <strong>Aashna Anand</strong>
+    </footer>
+  </main>
     </div>
   );
 }
