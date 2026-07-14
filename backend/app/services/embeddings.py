@@ -1,6 +1,5 @@
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from app.core.config import settings
-
+from app.config import settings
 _embeddings = None
 
 
