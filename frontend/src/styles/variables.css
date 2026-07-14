@@ -1,0 +1,27 @@
+:root {
+  --color-bg: #0b0f19;
+  --color-bg-elevated: #121829;
+  --color-bg-card: #161f33;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text: #e8edf7;
+  --color-text-muted: #94a3b8;
+  --color-primary: #6366f1;
+  --color-primary-hover: #818cf8;
+  --color-primary-soft: rgba(99, 102, 241, 0.15);
+  --color-accent: #22d3ee;
+  --color-success: #34d399;
+  --color-error: #f87171;
+  --color-warning: #fbbf24;
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #22d3ee 100%);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.45);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --sidebar-width: 320px;
+  --header-height: 64px;
+  --transition: 0.2s ease;
+}

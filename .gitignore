@@ -1,0 +1,102 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# =========================
+# Python / FastAPI (backend)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# =========================
+# Node / React (frontend)
+# =========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =========================
+# Application Data
+# =========================
+# Uploaded PDFs
+uploads/
+backend/uploads/
+
+# ChromaDB vector store
+chroma_data/
+backend/chroma_data/
+.chroma/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# OS & Editor
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.temp
+.cache/
